@@ -1,0 +1,276 @@
+@media screen and (min-width: 651px) and (max-width: 850px) {
+body, html {
+    background: #ffffff;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* ----------------------------------------
+    HEADER & NAV SECTIONS
+------------------------------------------- */
+
+header {
+    background-color: #146e9d;
+    height: 40px;
+    padding-top: 5px;
+    margin: 0 auto;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+header a, header a:active, header a:visited, header a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    color: #eeeeee;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  margin-bottom: 5px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+/* ----------------------------------------
+    BODY/MAIN SECTIONS
+------------------------------------------- */
+
+#main {
+    display: block;
+    width: 800px;
+    height: auto;
+    background-color: #ffffff;
+    color: #1d1e1e;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+section {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------------
+    FOOTER SECTION
+------------------------------------------- */
+
+footer {
+    height: 60px;
+    margin: 0;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #146e9d;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a,  footer a:link, footer a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+/* ----------------------------------------
+    TABLES
+------------------------------------------- */
+
+table .experience, table .about2, table .about3, table .about4 {
+    width: 800px;
+    float: left;
+    display: block;
+}
+
+table.commands {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+          
+table.commands th, table.commands td {
+    text-align: left;
+    padding: 8px;
+}
+          
+table.commands tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+table.commands tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+th.first, td.first {
+    width: 20%;
+}
+th.second, td.second {
+    width: 100%;
+}
+
+/* ----------------------------------------
+    PICTURES - NOT USED YET 12/4
+------------------------------------------- 
+
+img {}
+*/
+
+/* ----------------------------------------
+    FORMS
+------------------------------------------- */
+
+input[type="text"], #email, #name, #subject, #url {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+::placeholder {
+    color: #186F8B;
+}
+
+#message, textarea {
+  width: 100%; /* Full width */
+  height: 300px;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type="submit"], .submit {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #177cb0;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.submit:hover {background-color: #3e8e41}
+
+.submit:active {
+  background-color: #0B556D;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.grecaptcha-badge {
+   visibility: hidden;
+}
+
+/* ----------------------------------------
+    TEXT/FONT STYLES
+------------------------------------------- */
+
+h1 {
+    color: #2d87b7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    height: 10pt;
+}
+
+h2 {
+    border-bottom: 2px solid #177cb0;
+    color: #2d87b7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    width: 95%;
+    margin-left: 45px;
+    text-transform: uppercase;
+}
+
+
+a, a:active, a:link, a:visited {
+    color: #39555E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4169A0;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.blockquote {
+    border-left: 5px solid #2d87b7;
+    padding-left: 10px;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7AA0AD;
+    font-style: italic;
+    line-height: 25pt;
+    background-color: #E6F7FD;
+}
+}

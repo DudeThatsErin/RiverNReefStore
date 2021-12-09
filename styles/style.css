@@ -1,0 +1,396 @@
+body, html {
+    background: #ffffff;
+    margin: 0;
+}
+
+/* ----------------------------------------
+    HEADER & NAV SECTIONS
+------------------------------------------- */
+
+header {
+    background-color: #6C3483;
+    height: 300px;
+    padding-top: 5px;
+    margin: 0 auto;
+}
+
+#inner {
+    width: 1200px;
+    float: center;
+    margin: 0 auto;
+}
+
+#firstLine {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+img#logo {
+    height: 50px;
+    width: 200px;
+    padding-right: 5px;
+    display: inline;
+    margin-top: 5px;
+    order: 1;
+}
+
+.sear {
+    margin-left: 5px;
+    display: inline;
+    height: 50px;
+    order: 2;
+    flex-grow: 4;
+    width: 60%;
+}
+
+input.search {
+    height: 50px;
+    display: inline;
+    width: 50%;
+}
+
+button.searchButton {
+    background-color: #C49DE7;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    display: inline;
+    padding: 5px;
+    margin: 0;
+}
+
+.lastSection {
+    width: 40%;
+    color: #ffffff;
+    font-size: 13px;
+    display: inline;
+    order: 3;
+}
+
+.leftLeft {
+    width: 10%;
+    font-size: 20px;
+    display: inline;
+    order: 4;
+    color: #ffffff;
+}
+
+i.bigger {
+    font-size: 18px;
+}
+
+nav.topNav {
+    width: 1200px;
+    font-size: 13px;
+    font-weight: normal;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+section.mainNav {
+    background: #9F33FF;
+    color: #ffffff;
+    display: inline;
+    order: 1;
+}
+
+section#account {
+    display: inline;
+    order: 2;
+    color: #ffffff;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  margin-bottom: 5px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: inline;
+  width: 50px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\02304'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2303"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+header a, header a:active, header a:visited, header a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #186F8B;
+    text-decoration: underline;
+}
+
+
+/* ----------------------------------------
+    BODY/MAIN SECTIONS NOTHING YET 12/4
+------------------------------------------- */
+
+
+/* ----------------------------------------
+    FOOTER SECTION
+------------------------------------------- */
+
+footer {
+    height: auto;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #6C3483;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+section#beforeFoot {
+    width: 1200px;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#subscribe {
+    color: #ffffff;
+    order: 1;
+    width: 20%;
+    text-align: center;
+}
+
+#sub {
+    color: #ffffff;
+    order: 1;
+    width: 20%;
+    text-align: center;
+}
+
+#half {
+    order: 2;
+    width: 80%;
+}
+
+#footer3 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+section#logoSection {
+    width: 300px;
+    order: 1;
+}
+
+section#footLinks1 {
+    width: 100px;
+    order: 2;
+}
+
+section#footLinks2 {
+    width: 100px;
+    order: 3;
+}
+
+section#footLinks3 {
+    width: 100px;
+    order: 4;
+}
+
+footer a,  footer a:link, footer a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+/* ----------------------------------------
+    TABLES
+------------------------------------------- */
+
+table .experience, table .about2, table .about3, table .about4 {
+    width: 800px;
+    float: left;
+    display: block;
+}
+
+table.commands {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+          
+table.commands th, table.commands td {
+    text-align: left;
+    padding: 8px;
+}
+          
+table.commands tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+table.commands tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+th.first, td.first {
+    width: 20%;
+}
+th.second, td.second {
+    width: 100%;
+}
+
+/* ----------------------------------------
+    PICTURES - NOT USED YET 12/4
+------------------------------------------- 
+
+img {}
+*/
+
+/* ----------------------------------------
+    FORMS
+------------------------------------------- */
+
+#email, #name, #subject, #url {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+::placeholder {
+    color: #186F8B;
+}
+
+#message, textarea {
+  width: 100%; /* Full width */
+  height: 300px;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type="submit"], .submit {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #177cb0;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.submit:hover {background-color: #3e8e41}
+
+.submit:active {
+  background-color: #0B556D;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.grecaptcha-badge {
+   visibility: hidden;
+}
+
+/* ----------------------------------------
+    TEXT/FONT STYLES
+------------------------------------------- */
+
+h1 {
+    color: #2d87b7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    height: 10pt;
+}
+
+h2 {
+    border-bottom: 2px solid #177cb0;
+    color: #2d87b7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    width: 95%;
+    margin-left: 45px;
+    text-transform: uppercase;
+}
+
+
+a, a:active, a:link, a:visited {
+    color: #39555E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4169A0;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.blockquote {
+    border-left: 5px solid #2d87b7;
+    padding-left: 10px;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7AA0AD;
+    font-style: italic;
+    line-height: 25pt;
+    background-color: #E6F7FD;
+}
