@@ -7,8 +7,9 @@ $(document).ready(function() {
       $("body").toggleClass("down", (fromTop > 10));
       $("nav").toggleClass('mobile-menu', (fromTop > 10));
   });
-  $(".overlay-button").click(function(){
+  $("#overlay-button").click(function(e){
     $("nav").toggle();
+    e.preventDefault();
   });
 
   $(window).resize(function(){
