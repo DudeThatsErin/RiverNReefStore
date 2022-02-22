@@ -36,8 +36,10 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-5 col-5 logo-class">
                         <div class="logo">
-                            <input type="checkbox" id="overlay-input" />
-                            <label for="overlay-input" id="overlay-button"><span></span></label>
+                        <input type="checkbox" id="overlay-input" />
+                            <label for="overlay-input" id="overlay-button">
+                                <a href="#">Click me</a>
+                            </label>
                             <a href="https://riverandreef.store">
                                 <img src="assets/images/logoa.png" alt="logo" class="logo" />
                             </a>

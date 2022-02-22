@@ -1589,6 +1589,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .logo {
   margin: 30px 0 30px 0;
   width: 500px;
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3328,19 +3329,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   visibility: hidden;
 }
 
-#overlay-button span {
-  height: 4px;
-  width: 35px;
-  border-radius: 2px;
-  padding: 16px 11px;
-  z-index: 5;
-  position: absolute;
-  right: 2em;
-  top: 3em;
+#overlay-button {
+  
   background-color: #000;
+  color: white;
   position: relative;
-  display: block;
-  transition: all 0.2s ease-in-out;
 }
 
 #overlay-button {
