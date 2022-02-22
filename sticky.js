@@ -7,12 +7,8 @@ $(document).ready(function() {
       $("body").toggleClass("down", (fromTop > 10));
       $("nav").toggleClass('mobile-menu', (fromTop > 10));
   });
-<<<<<<< HEAD
 
   $('#overlay-button').click(function(e){
-=======
-  $("#overlay-button").click(function(e){
->>>>>>> 07790be5ba80829ed058fb3dd20be7c1270ffc4e
     $("nav").toggle();
     e.preventDefault();
   });
